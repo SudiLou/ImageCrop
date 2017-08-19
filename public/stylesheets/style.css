@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.wrap{
+  width: 650px;
+  height: 600px;
+  margin: 40px auto;
+  position: relative;
+  font-family: 微软雅黑;
+  font-size: 12px;
+  text-align: center;
+}
+.left{
+  float:left;
+  width: 400px;
+  height: 600px;
+}
+.cover{
+  width:400px;
+  height:320px;
+  overflow: hidden;
+  border: 1px #ddd solid;
+  box-shadow: 0 0 12px #ddd;
+}
+
+.upload{
+  display: inline-block;
+  position: relative;
+  width:165px;
+  height:50px;
+  margin-top: 10px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #666;
+  background-color: #fff;
+  text-decoration:none;
+  cursor:pointer;
+  border-radius: 3px;
+  text-align: center;
+  border:1px solid #666;
+}
+#upLoadImg1 {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 50px;
+}
+
+.upload:hover {
+  background-color: #009BDB;
+  color: #fff;
+  border:none;
+}
+
+.right{
+  float:right;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+}
+#myCanva{
+  box-shadow: 0px 0px 12px #ddd;
+  border: 1px #ddd solid;
+  border-radius: 50%;
+}
+.right button{
+  width:105px;
+  margin-top: 40px;
+  height:50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #666;
+  background-color: #fff;
+  text-decoration:none;
+  cursor:pointer;
+  border-radius: 3px;
+  border:1px solid #666;
+}
+.right button:hover{
+  background-color: #009BDB;
+  color: #fff;
+  border:none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头像裁剪和上传</title>
+    <link rel="stylesheet" href="../stylesheets/jquery.Jcrop.css">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <script src="../javascripts/jquery.js"></script>
+    <script src="../javascripts/jquery.Jcrop.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <!--弹窗与裁切图-->
+    <div class="left">
+        <div class="cover">
+            <img id="Img1"  alt="" src="../images/bg2.jpg"/>
+        </div>
+
+        <!--上传控件-->
+        <a href="javascript:void(0)"" class="upload">上传头像
+            <input type="file" name="upLoadImg1" id="upLoadImg1">
+        </a>
+    </div>
+
+
+    <div class="right">
+    <!--裁切范围重绘canvas-->
+        <canvas id="myCanva" width="200" height="200"></canvas>
+        <button id="btnSave">保存</button>
+    </div>
+</div>
+<script src="../javascripts/main.js"></script>
+</body>
+</html>
